@@ -82,9 +82,9 @@ def get_Description(cursor):
 if __name__ == "__main__":
     connection = oracle_Connect()
     cursor = get_Cursor(connection)
-
-    rows = [(1, "George"), (2,"Freddy"), (3,"Liza"), (4,"Nicole"), (5,"Danielle"), (6,"Justine"), (7,"Nicolas")]
     
+    # just creating some sample table
+    rows = [(1, "George"), (2,"Freddy"), (3,"Liza"), (4,"Nicole"), (5,"Danielle"), (6,"Justine"), (7,"Nicolas")]
     cursor.execute("drop table friends")
     cursor.execute("create table friends(id integer, name char(15))")
     print("table created")
