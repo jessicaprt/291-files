@@ -1,0 +1,22 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+cheatscript.py	cheatscript.py	1;"	kind:file	line:1
+cols	cheatscript.py	/^    cols = "*"$/;"	kind:variable	line:99
+commit_And_Close	cheatscript.py	/^def commit_And_Close(con, com):$/;"	kind:function	line:24
+connection	cheatscript.py	/^    connection = oracle_Connect()$/;"	kind:variable	line:83
+cursor	cheatscript.py	/^    cursor = get_Cursor(connection)$/;"	kind:variable	line:84
+execute_Fetchall	cheatscript.py	/^def execute_Fetchall(statement,cursor,bindvars=None):$/;"	kind:function	line:40
+execute_Fetchone	cheatscript.py	/^def execute_Fetchone(statement, cursor):$/;"	kind:function	line:52
+execute_List	cheatscript.py	/^def execute_List(statement, cursor):$/;"	kind:function	line:32
+get_Cursor	cheatscript.py	/^def get_Cursor(con):$/;"	kind:function	line:20
+get_Description	cheatscript.py	/^def get_Description(cursor):$/;"	kind:function	line:76
+oracle_Connect	cheatscript.py	/^def oracle_Connect():$/;"	kind:function	line:11
+rows	cheatscript.py	/^    rows = [(1, "George"), (2,"Freddy"), (3,"Liza"), (4,"Nicole"), (5,"Danielle"), (6,"Justine"), (7,"Nicolas")]$/;"	kind:variable	line:87
+search	cheatscript.py	/^def search(columns, table, variable, cursor):$/;"	kind:function	line:61
+statement	cheatscript.py	/^    statement = "select * from friends"$/;"	kind:variable	line:94
+table	cheatscript.py	/^    table = "friends"$/;"	kind:variable	line:100
+variable	cheatscript.py	/^    variable = "name"$/;"	kind:variable	line:101
